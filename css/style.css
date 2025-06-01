@@ -20,6 +20,7 @@ img{max-width: 100%;display: block;margin: auto; box-shadow: 0 2px 5px rgb(0 0 0
 :root {
     /*FONTES*/
     --fonte-texto: "Verdana", sans-serif;
+    /* --fonte-texto: "MontSerrat", sans-serif; */
     --fonte-titulos: "Arial",sans-serif;
     --font-fallback: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-body: Inter, var(--font-fallback);
@@ -117,7 +118,7 @@ nav a{
     font-weight:bold;
     text-decoration:none;
     text-transform:uppercase;color:#fff;text-shadow:2px 2px 2px black;cursor: pointer;transition: all 1s linear; margin-top: 1rem;}
-nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
+nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF; border-radius: 5px;}
 .menuMobile{display:none;width:50px;height:50px;color: white;justify-content: center;cursor: pointer;}
 .menuMobile-container{display: flex;flex-direction: column;align-items: center;}
 .mm_line{height:3px;background-color:#ccc;width: 80%;margin: 2px;}
@@ -234,6 +235,9 @@ height: 350px;
     text-shadow: #111 2px 2px 3px;
 }
 
+#rodape-index h3{
+  color: yellow;
+}
 #copyright{
     border-top: 1px solid #ccc;
     /* margin: 1em 0 1em; */
