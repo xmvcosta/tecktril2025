@@ -133,7 +133,8 @@ height: 350px;
 
 /*INDEX*/
 #index-quemsomos{
-  background-color: #95a6db;
+  /* background-color: #95a6db; */
+  background-color: red;
   display: flex;
   flex-direction: column;
   margin: 16px 0;
