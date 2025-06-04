@@ -122,7 +122,8 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF; border-radius:
 
 /*MAIN*/
 main{
-    background-color: var(--cor-bg-4);
+    /* background-color: var(--cor-bg-4); */
+    background-color: azure;
 }
 
 #imagembanner{
@@ -133,8 +134,8 @@ height: 350px;
 
 /*INDEX*/
 #index-quemsomos{
-  /* background-color: #95a6db; */
-  background-color: red;
+  background-color: #95a6db;
+  /* background-color: #f0f0f0; */
   display: flex;
   flex-direction: column;
   margin: 16px 0;
