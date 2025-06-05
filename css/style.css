@@ -134,8 +134,9 @@ height: 350px;
 
 /*INDEX*/
 #index-quemsomos{
-  background-color: #95a6db;
+  /* background-color: #95a6db; */
   /* background-color: #f0f0f0; */
+  background-color: #3053d226;
   display: flex;
   flex-direction: column;
   margin: 16px 0;
@@ -146,6 +147,10 @@ height: 350px;
 
 #index-quemsomos > div{
   flex: 1;
+}
+
+#index-quemsomos h1{
+  font-size: 45px;
 }
 
 /*PRODUTOS*/
@@ -161,9 +166,11 @@ height: 350px;
   /* color: #eaece5; */
   color: yellow;
 }
-.produto-item{background-color: var(--bg-light-1); 
+.produto-item{
+  /* background-color: var(--bg-light-1);  */
   /* margin: 1em 0;  */
   padding: 1em;
+  background-color: #f0f0f0;
 }
 .produto-item a{
     display: block;
