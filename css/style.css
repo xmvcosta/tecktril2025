@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /****RESET BÁSICO****/
 /*RESET BÁSICO*/
 *, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none;word-break: break-word;}
 
 img{max-width: 100%;display: block;margin: auto; box-shadow: 0 2px 5px rgb(0 0 0 / 45%);}
+
 
 /*CONTAINER centraliza e define tamanho do width em %*/
 .container{width:95%;margin: 0 auto;overflow: hidden;}
@@ -62,6 +66,11 @@ h1, h2, h3{
 
 p{
     /* margin: 0.9em 0;  */
+    /* font-family: "Roboto", sans-serif; */
+
+    font-family: "Inter", sans-serif;
+  
+
     font-size: 18px;
     margin:1rem 0 1rem;
     color: black;
@@ -72,7 +81,8 @@ p{
     line-height: 1.5;
     font-weight: bold;
     /* padding: 0 1rem; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    
   }
 
 /*TOPO*/
@@ -170,7 +180,7 @@ height: 350px;
 }
 .produto-item{
   /* background-color: var(--bg-light-1);  */
-  /* margin: 1em 0;  */
+  margin: 1em 0; 
   padding: 1em;
   background-color: #f0f0f0;
 }
