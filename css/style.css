@@ -176,7 +176,8 @@ height: 350px;
 
 #produtos h1{
   /* color: #eaece5; */
-  color: yellow;
+  /* color: yellow; */
+  color: #ffcb45;
 }
 .produto-item{
   /* background-color: var(--bg-light-1);  */
@@ -252,7 +253,8 @@ height: 350px;
 }
 
 #rodape-index h3{
-  color: #e9a209;
+  /* color: #e9a209; */
+  color: #ffcb45;
 }
 #copyright{
     border-top: 1px solid #ccc;
