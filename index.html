@@ -6,13 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Tecktril">
+  <meta name="keywords" content="extrusoras">
+  <meta name="description" content="Assistência técnica e manutenção de computador e notebook. (11) 2341-9299">
+  <meta property="og:title" content="Assistência técnica e manutenção de computador e notebook.">
+  <meta property="og:description" content="Assistência técnica e manutenção de computador e notebook. (11) 2341-9299">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.tecktril.com.br/img/trevisan-informatica.jpg">
+  <meta property="og:url" content="https://www.tecktril.com.br" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <title>Tecktril</title>
 </head>
 
 <body>
-  <header id="toposite" class="container">
+  <header id="toposite" class="container wow slideInLeft">
     <div id="topositeint">
       <div id="topologo">
         <a href="index.php"><img id="topologoimg" src="img/logo.jpg" alt="Tecktril"></a>
@@ -54,7 +65,7 @@
   <main>
     <div class="container">
       <!-- <h1>Teck Tril</h1> -->
-      <section id="index-quemsomos">
+      <section id="index-quemsomos" class= "wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.7s">
         <div>
           <h1>Teck Tril</h1>
           <p>Há mais de 20 anos no mercado, a TECK TRIL, empresa especializada no desenvolvimento, fabricação e
@@ -120,7 +131,7 @@
   </main>
 
   <footer id="rodape-index">
-    <div class="container">
+    <div class="container rodapeatendimento wow flipInX" data-wow-duration="1s" data-wow-delay="0.3s">
       <div id="rodape-itens">
         <div>
           <h3><i class="fa fa-calendar" aria-hidden="true"></i> Horário de funcionamento</h3>
@@ -147,5 +158,7 @@
   </footer>
 
   <script src="js/js.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init();</script>
 </body>
 </html>
