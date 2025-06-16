@@ -226,10 +226,16 @@ min-height: 350px;
     }
   
 /*RODAPE*/
-#rodape-itens{
+/* #rodape-itens{ */
   /* background-color: red; */
-  margin: 1em 0 1em;
+  /* margin: 3em 0 3em; */
+/* } */
+
+#rodape-itens > div{
+  /* background-color: yellow; */
+  margin: 2rem 0 2rem ;
 }
+
 #rodape-index{
     /* background-color: #3053D2; */
     color: white;
@@ -246,7 +252,9 @@ min-height: 350px;
 }
 
 #rodape-index p{
-    /* text-align: center; */
+   /* margin-bottom: 3rem;  */
+    text-align: center;
+    text-indent: 0;
     color: white;
     text-shadow: #111 2px 2px 3px;
 }
@@ -255,6 +263,12 @@ min-height: 350px;
   /* color: #e9a209; */
   color: #ffcb45;
 }
+
+/* #rodape-itens > div{
+  background-color: green
+  ;
+} */
+
 #copyright{
     border-top: 1px solid #ccc;
     /* margin: 1em 0 1em; */
