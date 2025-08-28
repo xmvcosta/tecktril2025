@@ -238,6 +238,7 @@ nav a:hover {
   color: white;
   justify-content: center;
   cursor: pointer;
+  margin-right: 1.2rem;
 }
 
 .menuMobile-container {
@@ -248,15 +249,16 @@ nav a:hover {
 
 .mm_line {
   height: 3px;
-  background-color: #ccc;
+  background-color: #fffff0;
   width: 80%;
   margin: 2px;
 }
 
 #redessociais i {
   /* color: #fff; */
-  font-size: 1.38em;
+  font-size: 1.5em;
   margin-right: 0.51em;
+  /* gap: 5px; */
 }
 
 .fa-youtube {
@@ -326,7 +328,8 @@ main {
   /* background-color: var(--bg-light-1);  */
   margin: 1em 0;
   padding: 1em;
-  background-color: #f0f0f0;
+  background-color: #FFFFF0;
+  border-radius: 5px;
 }
 
 .produto-item a {

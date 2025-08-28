@@ -45,6 +45,10 @@
         display: flex !important;
     }
 
+    #menu{
+        padding: 0;
+    }
+
     /*services section*/
     .services-container {
         display: flex;
