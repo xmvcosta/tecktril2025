@@ -471,9 +471,10 @@ iframe {
   position: fixed;
   bottom: 5%;
   right: 10px;
-  font-size: 3rem;
-  background-color: white;
-  border-radius: 50%;
+  font-size: 2.5rem;
+  background-color: green;
+  color: white;
+  border-radius: 10%;
   padding: 10px;
 }
 
