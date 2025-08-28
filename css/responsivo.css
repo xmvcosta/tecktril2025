@@ -41,6 +41,10 @@
         max-width: 146px;
     }
 
+    nav ul {
+        display: flex !important;
+    }
+
     /*services section*/
     .services-container {
         display: flex;
@@ -52,14 +56,12 @@
         width: 50%;
     }
 
-    #rodapeitens {
+    #rodape-itens {
         display: flex;
+        justify-content: space-evenly;
+        /* background-color: red; */
     }
-
-    nav ul {
-        display: flex !important;
-    }
-
+    
     /* .rodapeatendimento,.rodapeendereco{
         border-right: 3px dashed #3b5998;
     } */
