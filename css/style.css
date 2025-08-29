@@ -77,16 +77,11 @@ body {
   color: black;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 /*TITULOS*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: var(--fonte-titulos);
   color: var(--cor-bg-1);
   text-align: center;
@@ -170,7 +165,6 @@ p {
 
 /*NAV */
 #menu {
-  
   display: flex;
   justify-content: end;
   padding: 1rem;
@@ -204,7 +198,6 @@ nav a {
   text-shadow: 2px 2px 2px black;
   cursor: pointer;
   transition: all 1s linear;
-  
 }
 
 nav .active a,
@@ -382,7 +375,6 @@ iframe {
   display: block;
   max-width: 100%;
   margin: 0 auto;
-
 }
 
 .btn {
@@ -417,7 +409,8 @@ iframe {
 
 #mapa{
   width: 100%;
-  margin: 1rem;
+  max-width: 700px;
+  margin: 1rem auto;
 }
 
 /*CONTATO*/
