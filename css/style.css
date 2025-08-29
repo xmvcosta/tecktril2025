@@ -199,7 +199,7 @@ nav a {
   padding: 15px;
   font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fff;
   text-shadow: 2px 2px 2px black;
   cursor: pointer;
@@ -238,10 +238,8 @@ nav a:hover {
 }
 
 #redessociais i {
-  
   font-size: 1.5em;
   margin-right: 0.51em;
-
 }
 
 .fa-youtube {
@@ -328,7 +326,6 @@ main {
   background-color: #3053d226;
   margin: 16px 0;
 }
-
 
 .produto-item {
   margin: 1em 0;
