@@ -325,7 +325,8 @@ main {
   margin: 1em 0;
   padding: 1em;
   /* background-color: red; */
-  background: linear-gradient(#ececec, #c4c3c3);
+  background: #fff;
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(199, 199, 199, 1) 100%);
   border-radius: 5px;
 }
 
@@ -344,6 +345,12 @@ main {
   gap: 10px;
 }
 
+.produto-item i{
+  font-size: 32px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
 .produto-item img {
   border-radius: 5px;
   /* max-width: 250px; */
@@ -357,7 +364,9 @@ main {
 
 .prod-info {
   /* margin-bottom: 10px; */
-  background: linear-gradient(#ececec, #c4c3c3);
+  /* background: linear-gradient(#ececec, #c4c3c3); */
+  background: #fff;
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(199, 199, 199, 1) 100%);
   /* background-color: red; */
   padding: 10px;
   /* max-width: 300px; */
