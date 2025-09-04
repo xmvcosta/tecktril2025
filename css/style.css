@@ -272,6 +272,7 @@ main {
 
 #index-quemsomos h1 {
   font-size: 2.5rem;
+  text-transform: uppercase;
 }
 
 /*RODAPE*/
@@ -323,10 +324,14 @@ main {
 .produto-item {
   margin: 1em 0;
   padding: 1em;
-  background-color: #FFFFF0;
+  /* background-color: red; */
+  background: linear-gradient(#ececec, #c4c3c3);
   border-radius: 5px;
 }
 
+.produto-item p{
+  text-align: center;
+}
 .produto-item a {
   display: block;
   text-align: center;
@@ -345,9 +350,14 @@ main {
   /* box-shadow: 0 2px 5px rgb(0 0 0 / 45%); */
 }
 
+.produto-item img:hover{
+    transform: scale(1.05);
+    transition: 0.5s transform;
+}
+
 .prod-info {
   /* margin-bottom: 10px; */
-  background-color: #3053d226;
+  background: linear-gradient(#ececec, #c4c3c3);
   /* background-color: red; */
   padding: 10px;
   /* max-width: 300px; */
