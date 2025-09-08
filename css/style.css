@@ -94,6 +94,8 @@ h1 {
 
 h2 {
   font-size: 1.3em;
+  border-bottom: 1px solid #c4c3c3;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -330,8 +332,9 @@ main {
 }
 
 .produto-item p{
-  text-align: center;
+  text-align: left;
 }
+
 .produto-item a {
   display: block;
   text-align: center;
