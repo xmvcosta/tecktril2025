@@ -130,6 +130,11 @@ p {
   border-radius: 10%;
   padding: 10px;
 }
+
+#whatsfixo:hover{
+  background-color: rgb(0, 151, 0);
+}
+
 #toposite {
   display: flex;
 }
@@ -241,9 +246,22 @@ nav a:hover {
   color: red;
 }
 
+.fa-youtube:hover {
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 10%;
+  
+}
+
 .fa-whatsapp {
   color: green;
   font-weight: bolder;
+}
+
+.fa-whatsapp:hover {
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 10%;
 }
 
 /*MAIN*/
@@ -259,7 +277,8 @@ main {
 
 /*INDEX*/
 #index-quemsomos {
-  background-color: #3053d226;
+  /* background-color: #3053d226; */
+  background-color: #ededed;
   display: flex;
   flex-direction: column;
   margin: 16px 0;
@@ -407,7 +426,7 @@ iframe {
   font-size: 13px;
   text-align: center;
   transition: background-color 0.3s;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .btn-saibamais {
