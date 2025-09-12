@@ -247,12 +247,12 @@ nav a:hover {
   color: red;
 }
 
-.fa-youtube:hover {
+/* .fa-youtube:hover {
   background-color: #fff;
   padding: 4px;
   border-radius: 10%;
   
-}
+} */
 
 .fa-whatsapp {
   color: green;
@@ -355,12 +355,13 @@ main {
 } */
 
 .produto-item {
-  margin: 1em 0;
+  /* margin: 1em 0; */
+  margin: 1rem auto;
   padding: 1em;
   background: #fff;
-  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(199, 199, 199, 1) 100%);
+  background: linear-gradient(180deg, rgb(233, 232, 232) 0%, rgba(255, 255, 255, 1)  100%);
   border-radius: 5px;
-  max-width: 600px;
+  max-width: 725px;
 }
 
 .produto-item p{
