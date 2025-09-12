@@ -353,7 +353,6 @@ main {
 .produto-item {
   margin: 1em 0;
   padding: 1em;
-  /* background-color: red; */
   background: #fff;
   background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(199, 199, 199, 1) 100%);
   border-radius: 5px;
@@ -367,7 +366,6 @@ main {
   display: block;
   text-align: center;
 }
-
 
 .produto-item i{
   font-size: 32px;
