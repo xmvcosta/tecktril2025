@@ -350,12 +350,17 @@ main {
   gap: 10px;
 }
 
+/* .produto-content{
+  display: flex;
+} */
+
 .produto-item {
   margin: 1em 0;
   padding: 1em;
   background: #fff;
   background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(199, 199, 199, 1) 100%);
   border-radius: 5px;
+  max-width: 600px;
 }
 
 .produto-item p{
@@ -389,16 +394,13 @@ main {
 .imgcontainer{
   margin: 0 auto;
   max-width: 500px;
+  padding: 1rem;
 }
 
 .prod-info {
-  /* margin-bottom: 10px; */
-  /* background: linear-gradient(#ececec, #c4c3c3); */
   background: #fff;
   background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(199, 199, 199, 1) 100%);
-  /* background-color: red; */
   padding: 10px;
-  /* max-width: 300px; */
 }
 
 .prod-info h2 {
@@ -407,7 +409,6 @@ main {
 
 .prod-info p {
   line-height: 1.8rem;
-  /* text-align: justify; */
   margin: 1rem 0;
 }
 
@@ -433,7 +434,6 @@ iframe {
   font-size: 13px;
   text-align: center;
   transition: background-color 0.3s;
-  /* width: 200px; */
 }
 
 .btn-saibamais {
