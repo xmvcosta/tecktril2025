@@ -120,6 +120,10 @@
     /*.container{
         width: 992px;
     }*/
+
+    #principal{
+        flex-direction: row;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/

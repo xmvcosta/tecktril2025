@@ -46,7 +46,8 @@ img {
 /*DEFININDO VARIAVEIS GLOBAIS*/
 :root {
   /*FONTES*/
-  --fonte-texto: "Lato", sans-serif;
+  /* --fonte-texto: "Lato", sans-serif; */
+  --fonte-texto: 'Open Sans', sans-serif;
   --fonte-titulos: "Cabin", sans-serif;
   --font-fallback: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --font-body: Inter, var(--font-fallback);
@@ -201,6 +202,7 @@ nav a {
   padding: 15px;
   font-weight: bold;
   text-decoration: none;
+  text-transform: uppercase;
   /* text-transform: uppercase; */
   color: #fff;
   text-shadow: 2px 2px 2px black;
@@ -296,6 +298,23 @@ main {
   text-transform: uppercase;
 }
 
+#principal{
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  /* align-items: center; */
+  /* width: 600px ; */
+}
+
+aside{
+  /* background-color: #f0f0f0; */
+  background-color: #0056b3;
+  /* max-width: 300px; */
+  padding: 1rem;
+}
+
 /*RODAPE*/
 #rodape-itens>div {
   /* background-color: yellow; */
@@ -335,10 +354,11 @@ main {
 /*** PAGINAS ***/
 /*PRODUTOS*/
 #produtos {
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgb(0 0 0 / 45%);
   padding: 1rem;
-  background-color: #3053d226;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 5px rgb(0 0 0 / 45%); */
+  /* background-color: #f9f9f9; */
+  /* background-color: #3053d226; */
   margin: 16px 0;
 }
 
@@ -355,16 +375,24 @@ main {
 
 .produto-item {
   /* margin: 1em 0; */
+  max-width: 640px;
   margin: 1rem auto;
   padding: 1em;
   background: #fff;
-  background: linear-gradient(180deg, rgb(233, 232, 232) 0%, rgba(255, 255, 255, 1)  100%);
+  /* color: #fff; */
+  /* background: linear-gradient(180deg, rgb(233, 232, 232) 0%, rgba(255, 255, 255, 1)  100%); */
+  background:linear-gradient(180deg, #0000ff 0%, #39aae1 100%);
   border-radius: 5px;
-  max-width: 640px;
+  
+}
+
+.produto-item h2{
+  color: #fff;
 }
 
 .produto-item p{
   text-align: left;
+  color: #fff;
 }
 
 .produto-item a {
@@ -420,11 +448,7 @@ main {
   padding: 5px;
 }
 
-iframe {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-}
+
 
 .btn {
   padding: 8px 15px;
@@ -457,9 +481,16 @@ iframe {
 
 #mapa{
   width: 100%;
-  max-width: 700px;
+  max-width: 1900px;
+  height: 400px;
   margin: 1rem auto;
 }
+
+/* iframe {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+} */
 
 /*CONTATO*/
 .contato{width: 100%;max-width: 500px;padding: 5px;}
