@@ -311,9 +311,25 @@ main {
 aside{
   /* background-color: #f0f0f0; */
   background-color: #0056b3;
+  color: white;
   /* max-width: 300px; */
   padding: 1rem;
+
+  font-family: var(--fonte-texto);
+  margin: 1rem 0 1rem;
+  /* color: #414141; */
+  /* word-wrap: break-word; */
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  line-height: 1.8rem;
+  font-weight: bold;
+  /* text-align: justify; */
 }
+
+aside div{
+  margin: 1rem ;
+}
+
 
 /*RODAPE*/
 #rodape-itens>div {
@@ -427,7 +443,7 @@ aside{
 
 .prod-info {
   background: #fff;
-  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(199, 199, 199, 1) 100%);
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, #f1f1f0 100%);
   padding: 10px;
 }
 
