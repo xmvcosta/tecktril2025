@@ -513,6 +513,27 @@ aside div{
   margin: 0 auto;
 } */
 
+/*QUEM SOMOS*/
+#missao, #visao, #valores {
+  max-width: 300px;
+  padding: 1rem;
+  border-radius: 5%;
+  background-color: #fff;
+  background:linear-gradient(180deg, #0000ff 0%, #39aae1 100%);
+  
+}
+
+#missao h2, #visao h2, #valores h2{
+  color: #fff;
+}
+
+#missao p, #visao p, #valores p{
+  /* background: red; */
+  /* background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, #f1f1f0 100%); */
+  color: #fff;
+}
+
+
 /*CONTATO*/
 .contato{width: 100%;max-width: 500px;padding: 5px;}
 .form{display: flex;flex-direction: column;}
