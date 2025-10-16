@@ -517,7 +517,7 @@ aside div{
 #missao, #visao, #valores {
   max-width: 300px;
   padding: 1rem;
-  border-radius: 5%;
+  border-radius: 16px;
   background-color: #fff;
   background:linear-gradient(180deg, #0000ff 0%, #39aae1 100%);
   
