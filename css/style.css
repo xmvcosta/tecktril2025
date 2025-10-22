@@ -514,13 +514,26 @@ aside div{
 } */
 
 /*QUEM SOMOS*/
+#index-quemsomos h1{
+  display: none;
+}
+ .container-quemsomos{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  gap: 1rem;
+  
+    }
+
 #missao, #visao, #valores {
-  width: 300px;
-  height: 385px;
+  width: 265px;
+  /* height: 400px; */
   padding: 1rem;
+  /* margin: 10px; */
   border-radius: 16px;
   background-color: #fff;
-  background:linear-gradient(180deg, #0000ff 0%, #39aae1 100%);
+  background:linear-gradient(180deg, #0000ff 0%, #3966e1 100%);
   
 }
 

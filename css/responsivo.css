@@ -98,10 +98,20 @@
   max-width: 245px;
 }
 
+/*QUEM SOMOS*/
     #quemsomoscont {
         display: flex;
         justify-content: center;
     }
+
+    .container-quemsomos{
+        flex-direction: row;
+   } 
+
+   #missao, #visao, #valores {
+  height: 525px; 
+   
+}
 }
 
 
@@ -125,13 +135,7 @@
         flex-direction: row;
     }
 
-    .container-quemsomos{
-        display: flex;
-        justify-content: space-evenly;
-  align-items: center;
-  gap: 1rem;
-  
-    }
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
