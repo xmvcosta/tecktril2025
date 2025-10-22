@@ -522,6 +522,7 @@ aside div{
   flex-direction: column;
   /* justify-content: space-evenly; */
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   
     }
