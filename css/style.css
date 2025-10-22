@@ -402,7 +402,8 @@ aside div{
   background: #fff;
   /* color: #fff; */
   /* background: linear-gradient(180deg, rgb(233, 232, 232) 0%, rgba(255, 255, 255, 1)  100%); */
-  background:linear-gradient(180deg, #0000ff 0%, #39aae1 100%);
+  /* background:linear-gradient(180deg, #0000ff 0%, #39aae1 100%); */
+  background:linear-gradient(180deg, #0000ff 0%, #3966e1 100%);
   border-radius: 5px;
   
 }
