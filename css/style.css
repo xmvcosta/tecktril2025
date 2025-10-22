@@ -515,7 +515,8 @@ aside div{
 
 /*QUEM SOMOS*/
 #missao, #visao, #valores {
-  max-width: 300px;
+  width: 300px;
+  height: 385px;
   padding: 1rem;
   border-radius: 16px;
   background-color: #fff;
@@ -530,6 +531,7 @@ aside div{
 #missao p, #visao p, #valores p{
   /* background: red; */
   /* background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, #f1f1f0 100%); */
+  text-align: center;
   color: #fff;
 }
 
