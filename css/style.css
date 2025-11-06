@@ -550,6 +550,17 @@ aside div{
   color: #fff;
 }
 
+#imgs-quemsomos{
+  max-width: 700px; 
+  /* padding: 1rem; */
+}
+
+#imgs-quemsomos img{
+  margin: 1rem 0;
+  border-radius: 16px;
+  height: 340px;
+}
+
 
 /*CONTATO*/
 .contato{width: 100%;max-width: 500px;padding: 5px;}
