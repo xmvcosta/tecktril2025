@@ -546,7 +546,7 @@ aside div{
 #missao p, #visao p, #valores p{
   /* background: red; */
   /* background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, #f1f1f0 100%); */
-  text-align: center;
+  text-align: left;
   color: #fff;
 }
 
