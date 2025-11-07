@@ -9,7 +9,8 @@
         position: absolute;
         left: 0;
         width: 100%;
-        background-color: var(--cor-bg-1);
+        /* background-color: var(--cor-bg-1); */
+        background-color: #3939ff;
         opacity: .9;
         margin-top: 1rem;
         flex: 1;
