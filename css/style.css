@@ -74,7 +74,8 @@ body {
 
 body {
   font-family: var(--fonte-texto);
-  background-color: var(--cor-bg-1);
+  /* background-color: var(--cor-bg-1); */
+  background-color: #0000ff;
   text-align: center;
   color: black;
   scroll-behavior: smooth;
